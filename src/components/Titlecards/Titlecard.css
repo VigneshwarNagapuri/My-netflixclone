@@ -1,0 +1,20 @@
+.titlecards{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.titlecards h2{
+    margin-bottom: px;
+}
+.cardlist{
+    display: flex;
+    gap:10px;
+    overflow-x: scroll;
+}
+.cardlist::-webkit-scrollbar{
+    display: none;
+}
+.cardlist img {
+    width: 240px;
+    border-radius: 4px;
+    cursor: pointer;
+}
